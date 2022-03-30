@@ -17,7 +17,7 @@ int print2largest(int arr[], int arr_size)
     	//code here.
     	int i,n;
     	sort(arr,arr+arr_size);
-    	for(i=0;i<arr_size;i++)
+    	for(i=0;i<arr_size;i++)                       // This loop is used to determine whether an array has any duplicate entry or not...If present it gets counted..
         {
            if(arr[arr_size-1-i]!=arr[arr_size-2-i])
            break;
